@@ -1,0 +1,410 @@
+{
+    "intents": [
+        {
+            "intent": "recipe_biryani",
+            "examples": [
+                "Tell me a recipe for Biryani",
+                "How to make Biryani?",
+                "I want to make biryani"
+            ],
+            "responses": [
+                {
+                    "ingredients": "2 cups basmati rice, 1 lb chicken, 2 onions, 2 tomatoes, 1 tbsp ginger garlic paste, 2 tbsp yogurt, 1 tsp garam masala, 1 tsp turmeric, 1 tbsp coriander powder, 1 tbsp cumin, 1 cinnamon stick, 3 cloves, 2 bay leaves, 4 cups water, Salt to taste, Fresh cilantro for garnish",
+                    "instructions": "1. Wash and soak rice for 30 minutes. 2. Heat oil in a pot and fry onions until golden brown. 3. Add ginger-garlic paste and chicken, and cook until browned. 4. Add tomatoes, yogurt, and spices, and cook for 10 minutes. 5. Add rice, water, and salt, bring to a boil. 6. Cover and cook on low heat for 15 minutes. 7. Garnish with cilantro and serve."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_karahi",
+            "examples": [
+                "How to make Chicken Karahi?",
+                "Give me a Chicken Karahi recipe"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 lb chicken, 2 tbsp ginger garlic paste, 2 onions, 2 tomatoes, 3-4 green chilies, 1 tsp cumin, 1 tsp coriander, 1 tsp garam masala, 1 tsp chili powder, 1/2 cup yogurt, 2 tbsp oil, Fresh cilantro for garnish",
+                    "instructions": "1. Heat oil in a karahi. 2. Fry onions. 3. Add chicken. 4. Add tomatoes & spices. 5. Cook 15 minutes. 6. Garnish with cilantro."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_gajar_ka_halwa",
+            "examples": [
+                "Give me a recipe for Gajar ka Halwa",
+                "How to make Gajar ka Halwa?"
+            ],
+            "responses": [
+                {
+                    "ingredients": "4 large carrots, 4 cups milk, 1 cup sugar, 1/2 cup ghee, 1/4 tsp cardamom powder, almonds, cashews, raisins",
+                    "instructions": "1. Cook grated carrots in milk. 2. Reduce milk. 3. Add sugar & ghee. 4. Add cardamom. 5. Add nuts."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_nihari",
+            "examples": [
+                "How to make Nihari?",
+                "Tell me a recipe for Nihari"
+            ],
+            "responses": [
+                {
+                    "ingredients": "2 lbs beef, onions, ginger garlic, tomatoes, cumin, coriander, garam masala, chili powder",
+                    "instructions": "1. Fry onions. 2. Add beef. 3. Add tomatoes & spices. 4. Add water & cook 2–3 hrs."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_haleem",
+            "examples": [
+                "How to make Haleem?",
+                "Give me a recipe for Haleem"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 cup wheat, 1 cup barley, 1 lb chicken, onions, spices",
+                    "instructions": "1. Soak grains. 2. Cook meat. 3. Blend grains. 4. Mix & cook."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_kebabs",
+            "examples": [
+                "How to make Kebabs?",
+                "Give me a recipe for Kebabs"
+            ],
+            "responses": [
+                {
+                    "ingredients": "500g minced beef, 2 onions, 1 tbsp ginger garlic paste, 2 tbsp yogurt, 1 tsp garam masala, 1 tsp cumin, 1 tsp coriander powder, 1/2 tsp chili powder, Salt to taste, Fresh coriander for garnish",
+                    "instructions": "1. Mix all ingredients and form into small kebabs. 2. Grill or fry on medium heat for 10–15 minutes. 3. Garnish with coriander and serve."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_palak",
+            "examples": [
+                "How to make Palak?",
+                "Give me a recipe for Palak"
+            ],
+            "responses": [
+                {
+                    "ingredients": "500g spinach, 1 onion, 2 tomatoes, 1 tbsp ginger garlic paste, 1 tsp cumin, 1 tsp garam masala, Salt to taste, 2 tbsp oil",
+                    "instructions": "1. Cook spinach until wilted. 2. Heat oil in a pan and sauté onions and spices. 3. Add tomatoes and cook for 10 minutes. 4. Add spinach and cook for 5 more minutes."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_rice_pudding",
+            "examples": [
+                "How to make Rice Pudding?",
+                "Give me a recipe for Rice Pudding"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 cup rice, 4 cups milk, 1/2 cup sugar, 1 tsp cardamom powder, 1/4 cup raisins, 1/4 cup almonds",
+                    "instructions": "1. Boil rice in milk until tender. 2. Add sugar and cook for 10 more minutes. 3. Garnish with raisins, almonds, and cardamom powder."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_dal_tadka",
+            "examples": [
+                "How to make Dal Tadka?",
+                "Give me a recipe for Dal Tadka"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 cup yellow lentils, 1 onion, 2 tomatoes, 1 tsp cumin, 1 tsp coriander, 1 tsp garam masala, 2 green chilies, 2 tbsp ghee, Salt to taste",
+                    "instructions": "1. Boil lentils in water until soft. 2. In a pan, heat ghee and sauté onions, tomatoes, and spices. 3. Add boiled lentils and cook for 10 minutes."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_tandoori_chicken",
+            "examples": [
+                "How to make Tandoori Chicken?",
+                "Give me a recipe for Tandoori Chicken"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 whole chicken, 1 cup yogurt, 1 tbsp ginger garlic paste, 1 tbsp tandoori masala, 1 tsp cumin, 1 tsp coriander, Salt to taste",
+                    "instructions": "1. Marinate chicken with yogurt and spices for 2 hours. 2. Preheat the oven to 180°C. 3. Roast the chicken for 45 minutes."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_burger",
+            "examples": [
+                "How to make a Burger?",
+                "Give me a recipe for a Burger"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 lb ground beef, 4 burger buns, 1 onion, lettuce, tomato, ketchup, mustard",
+                    "instructions": "1. Form beef into patties and grill. 2. Toast burger buns. 3. Assemble with lettuce, tomato, and condiments."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_pizza",
+            "examples": [
+                "How to make Pizza?",
+                "Give me a recipe for Pizza"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 pizza dough, 1 cup tomato sauce, 1 cup mozzarella cheese, pepperoni slices, bell peppers, onions",
+                    "instructions": "1. Preheat the oven to 200°C. 2. Roll out dough and add sauce. 3. Top with cheese and toppings. 4. Bake for 12–15 minutes."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_chocolate_cake",
+            "examples": [
+                "How to make Chocolate Cake?",
+                "Give me a recipe for Chocolate Cake"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 1/2 cups flour, 1 cup sugar, 1/2 cup cocoa powder, 1 tsp baking powder, 1/2 cup butter, 2 eggs, 1 cup milk, 1 tsp vanilla extract",
+                    "instructions": "1. Preheat oven to 180°C. 2. Mix dry ingredients, then add wet ingredients. 3. Bake for 30 minutes."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_pasta",
+            "examples": [
+                "How to make Pasta?",
+                "Give me a recipe for Pasta"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 cup pasta, 2 cups tomato sauce, 1/2 cup parmesan cheese, 1 tbsp olive oil, garlic",
+                    "instructions": "1. Boil pasta. 2. Heat oil and sauté garlic. 3. Add tomato sauce and cook for 10 minutes. 4. Toss pasta with sauce and cheese."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_fried_rice",
+            "examples": [
+                "How to make Fried Rice?",
+                "Give me a recipe for Fried Rice"
+            ],
+            "responses": [
+                {
+                    "ingredients": "2 cups rice, 1/2 cup peas, 1/2 cup carrots, 2 eggs, soy sauce, green onions, oil",
+                    "instructions": "1. Cook rice. 2. Sauté veggies and scrambled eggs. 3. Add rice, soy sauce, and cook for 5 minutes."
+                }
+            ]
+        },
+        {
+            "intent": "greet",
+            "examples": [
+                "hello",
+                "hi",
+                "hey",
+                "salam",
+                "aoa",
+                "good morning",
+                "hello there",
+                "hi there",
+                "hey there",
+                "good day",
+                "what's up",
+                "howdy",
+                "greetings",
+                "good evening",
+                "good afternoon",
+                "hello bot",
+                "hi bot",
+                "hey bot",
+                "morning",
+                "evening",
+                "afternoon",
+                "hello foodie",
+                "hi foodie",
+                "hey foodie"
+            ],
+            "responses": [
+                {
+                    "instructions": "Hello! How can I help you today?"
+                }
+            ]
+        },
+        {
+            "intent": "thanks",
+            "examples": [
+                "thanks",
+                "thank you",
+                "shukriya"
+            ],
+            "responses": [
+                {
+                    "instructions": "You're welcome!"
+                }
+            ]
+        },
+        {
+            "intent": "help",
+            "examples": [
+                "help",
+                "what can you do",
+                "how can you help"
+            ],
+            "responses": [
+                {
+                    "instructions": "You can ask me any recipe like biryani, haleem or halwa!"
+                }
+            ]
+        },
+        {
+            "intent": "about",
+            "examples": [
+                "who are you",
+                "what are you",
+                "tell me about yourself"
+            ],
+            "responses": [
+                {
+                    "instructions": "I'm FoodieBot — your cooking assistant! 🍽️"
+                }
+            ]
+        },
+        {
+            "intent": "goodbye",
+            "examples": [
+                "bye",
+                "see you",
+                "goodbye",
+                "take care"
+            ],
+            "responses": [
+                {
+                    "instructions": "Goodbye! Have a great day! 👋"
+                }
+            ]
+        },
+        {
+            "intent": "unknown",
+            "examples": [
+                "ajdsk",
+                "hmm",
+                "random text"
+            ],
+            "responses": [
+                {
+                    "instructions": "I didn't understand that. Try asking for a recipe like 'How to make Biryani?'"
+                }
+            ]
+        },
+        {
+            "intent": "recipe_strawberry_milkshake",
+            "examples": [
+                "How to make Strawberry Milkshake?",
+                "Give me recipe for Strawberry Shake",
+                "Strawberry milkshake banane ka tarika"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 cup strawberries, 1 cup milk, 2 tbsp sugar, 2 scoops vanilla ice cream",
+                    "instructions": "1. Add strawberries, milk, and sugar to a blender. 2. Blend until smooth. 3. Add ice cream and blend again for 5 seconds. 4. Serve chilled."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_mango_milkshake",
+            "examples": [
+                "How to make Mango Milkshake?",
+                "Give me recipe for Mango Shake",
+                "Mango shake kaise banate hain"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 cup mango chunks, 1 cup chilled milk, 2 tbsp sugar, ice cubes",
+                    "instructions": "1. Add mango, milk, and sugar to a blender. 2. Blend until thick and smooth. 3. Add ice cubes and blend for a few seconds."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_chocolate_milkshake",
+            "examples": [
+                "How to make Chocolate Shake?",
+                "Give me chocolate milkshake recipe",
+                "Chocolate shake ka recipe"
+            ],
+            "responses": [
+                {
+                    "ingredients": "2 tbsp cocoa powder, 2 scoops chocolate ice cream, 1 cup milk, 1 tbsp sugar",
+                    "instructions": "1. Add cocoa, ice cream, milk, and sugar to blender. 2. Blend until smooth. 3. Serve with chocolate syrup."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_oreo_shake",
+            "examples": [
+                "How to make Oreo Shake?",
+                "Give me oreo shake recipe",
+                "Oreo shake kaise banate hain"
+            ],
+            "responses": [
+                {
+                    "ingredients": "4 Oreo cookies, 1 cup milk, 2 scoops vanilla ice cream",
+                    "instructions": "1. Crush Oreos and add to blender. 2. Add milk and ice cream. 3. Blend for 10 seconds. 4. Serve chilled."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_falooda",
+            "examples": [
+                "How to make Falooda?",
+                "Give me Falooda recipe",
+                "Falooda banane ka tarika"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 cup milk, 2 tbsp rooh afza, falooda sev, 1 scoop ice cream, basil seeds",
+                    "instructions": "1. Soak basil seeds. 2. Boil falooda sev. 3. Add rooh afza to milk. 4. Layer basil seeds, sev, milk, and ice cream in a glass."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_kheer",
+            "examples": [
+                "How to make Kheer?",
+                "Give me Kheer recipe",
+                "Kheer kaise banate hain"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1/2 cup rice, 4 cups milk, 1/2 cup sugar, cardamom powder, almonds",
+                    "instructions": "1. Boil rice in milk until soft and thick. 2. Add sugar and cardamom. 3. Garnish with almonds."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_banana_pudding",
+            "examples": [
+                "How to make Banana Pudding?",
+                "Give me banana pudding recipe"
+            ],
+            "responses": [
+                {
+                    "ingredients": "2 bananas, 1 cup milk, 2 tbsp sugar, 1 tbsp custard powder",
+                    "instructions": "1. Boil milk. 2. Mix custard in water and add to milk. 3. Add sugar. 4. Add sliced bananas and chill."
+                }
+            ]
+        },
+        {
+            "intent": "recipe_strawberry_icecream",
+            "examples": [
+                "How to make Strawberry Ice Cream?",
+                "Give me recipe for strawberry icecream"
+            ],
+            "responses": [
+                {
+                    "ingredients": "1 cup cream, 1/2 cup milk, 1/2 cup sugar, 1 cup chopped strawberries",
+                    "instructions": "1. Blend strawberries with sugar. 2. Add cream and milk and mix well. 3. Freeze for 6 hours, mixing every hour."
+                }
+            ]
+        }
+    ]
+}
